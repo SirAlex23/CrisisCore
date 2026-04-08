@@ -358,8 +358,8 @@ export default function ResultScreen({
                           Consejo final
                         </span>
                       </div>
-                      <p className="text-sm text-slate-300 leading-relaxed italic">
-                        "{informe.consejo_final}"
+                      <p className="text-sm text-slate-300 leading-relaxed">
+                        {`"${informe.consejo_final}"`}
                       </p>
                     </div>
                   </div>
